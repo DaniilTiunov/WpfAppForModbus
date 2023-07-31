@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=System.Runtime">
+    <system:String x:Key="AlreadyConnected">На данном порту уже установлено подключение</system:String>
+    <system:String x:Key="SuccessfulConnected">Подключение успешно установлено</system:String>
+    <system:String x:Key="SuccessfulStopped">Подключение успешно остановлено</system:String>
+    <system:String x:Key="IncorrectConnectionData">Неверные параметры подключения</system:String>
+    <system:String x:Key="StartLoadingData">Начало загрузки данных...</system:String>
+    <system:String x:Key="StartLoadingPorts">Загрузка портов...</system:String>
+    <system:String x:Key="SettingsLoading">Загрука настроек</system:String>
+    <system:String x:Key="SettingsLoaded">Настройки загружены</system:String>
+    <system:String x:Key="DataHandling">Обработка данных</system:String>
+    <system:String x:Key="InDecryptedView">В расшифрованном виде</system:String>
+    <system:String x:Key="IntervalWaiting">Время ожидания перед отправкой</system:String>
+    <system:String x:Key="EmptyAnswer">Пришёл пустой ответ с датчика</system:String>
+    <system:String x:Key="CurrentSensor">Текущий датчик</system:String>
+    <system:String x:Key="SettingsUpdated">Настройки обновлены</system:String>
+    <system:String x:Key="LoadedData">Данные успешно загружены</system:String>
+    <system:String x:Key="SendingData">Отправляю посылку</system:String>
+    <system:String x:Key="NoSensors">Не выбран датчик(и) для общения</system:String>
+    <system:String x:Key="StartConnection">Начало общения</system:String>
+    <system:String x:Key="RefreshedPorts">Порты обновлены</system:String>
+    <system:String x:Key="DeletedData">Данные за выбранный период удалены</system:String>
+    <system:String x:Key="AppVersion">Версия: 3.0.2705</system:String>
+</ResourceDictionary>

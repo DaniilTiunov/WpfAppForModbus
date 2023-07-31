@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WpfAppForModbus.Const.BaudRateList" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Const\BaudRateList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Const.DataBitsList" Collapsed="true">
+    <Position X="5.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Const\DataBitsList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Const.HandshakeList" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Const\HandshakeList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Const.ParityList" Collapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Const\ParityList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Const.StopBitsList" Collapsed="true">
+    <Position X="9" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Const\StopBitsList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Domain.Entities.Sensor" Collapsed="true">
+    <Position X="2" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Domain\Entities\Sensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Domain.Entities.SensorsData" Collapsed="true">
+    <Position X="2" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAIAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Domain\Entities\SensorsData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Domain.Models.SensorDataList" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAEAAABHAAAAAAAAAgEAAAAAAAAAAgAAgA=</HashCode>
+      <FileName>Domain\Models\SensorDataList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfAppForModbus.Domain.ApplicationContext" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\ApplicationContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Enums.HandshakeValues" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Enums\HandShakeValues.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfAppForModbus.Enums.ParityValues" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Enums\ParityValues.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfAppForModbus.Enums.StopBitsValues" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Enums\StopBitsValues.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfAppForModbus.Handlers.SensorHandler" Collapsed="true">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAggAAAAAAAAAAggAAA=</HashCode>
+      <FileName>Handlers\SensorHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Hooks.UIHooks" Collapsed="true">
+    <Position X="2" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hooks\UIHooks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Models.Analyzers.Analyzer" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAQAEAAAAIBAABCAAAAACAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\Analyzers\Analyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Models.Core.ComPort" Collapsed="true">
+    <Position X="2" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAIAAAAAAAAAAgCAAAEEAAAAAAAAHAAAA=</HashCode>
+      <FileName>Models\Core\ComPort.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Models.Core.Logger" Collapsed="true">
+    <Position X="2" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACAABAAAAAAAAAAAAAAAAQAAAAEEAAAAAg=</HashCode>
+      <FileName>Models\Core\Logger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Models.Core.SensorHandlers" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YgAAEAIAACAACAIAAACAAAAAAAgAAgIAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Core\SensorHandlers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Models.Core.Settings" Collapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\Core\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Models.Helpers.ComboBoxHelper" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAEAAA=</HashCode>
+      <FileName>Models\Helpers\ComboBoxHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Models.Helpers.DictionaryHelper" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Models\Helpers\DictionaryHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Models.Helpers.ModalDialogHelper" Collapsed="true">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Models\Helpers\ModalDialogHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Models.Helpers.Shared" Collapsed="true">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAABgAAAAAACAAACAAAAAAAAAA=</HashCode>
+      <FileName>Models\Helpers\Shared.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Models.Views.AnalyzerView" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAJAAAAAAEAAAAAAABAAAABAEAACABAAQAAQ=</HashCode>
+      <FileName>Models\Views\AnalyzerView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Models.Views.ComPortOptions" Collapsed="true">
+    <Position X="3.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAAAAAAAAEIAAAABAkAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Models\Views\ComPortOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Models.Views.Notification" Collapsed="true">
+    <Position X="7.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAEAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Views\Notification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Models.Views.SensorData" Collapsed="true">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAABAIAAAAAAAABAQAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Models\Views\SensorData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Models.Views.SensorDataGridView" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Models\Views\SensorDataGridView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.Models.Views.SensorView" Collapsed="true">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAIAAACAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAABA=</HashCode>
+      <FileName>Models\Views\SensorView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.App" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfAppForModbus.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAclyALBFIgDAABwgCADAgEkQgoQAgAAAQAkoAEAWJA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="WpfAppForModbus.Domain.Interfaces.ISensorDataList" Collapsed="true">
+    <Position X="3.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAEAAABFAAAAAAAAAgEAAAAAAAAAAgAAgA=</HashCode>
+      <FileName>Domain\Interfaces\ISensorDataList.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WpfAppForModbus.Interfaces.IComboBoxObjects" Collapsed="true">
+    <Position X="2" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IComboBoxObjects.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
